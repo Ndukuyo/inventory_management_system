@@ -260,18 +260,18 @@ if __name__ == '__main__':
     
     sample_item = {
         'id': next_id,
-        'name': 'Organic Almond Milk',
+        'name': 'Soko Maize Meal',
         'barcode': '123456789012',
-        'price': 4.99,
+        'price': 160,
         'stock_quantity': 50,
-        'brand': 'Silk',
-        'category': 'Dairy Alternatives',
-        'description': 'Organic unsweetened almond milk',
-        'ingredients': 'Filtered water, almonds, cane sugar',
+        'brand': 'Soko',
+        'category': 'Maize Floor',
+        'description': 'Make from quality kenyan grain',
+        'ingredients': 'Maize',
         'nutritional_info': {'calories': 30, 'protein': '1g'},
-        'image_url': 'https://example.com/almond-milk.jpg',
-        'quantity': '1L',
-        'origin': 'USA',
+        'image_url': 'https://example.com/soko.jpg',
+        'quantity': '2kg',
+        'origin': 'Kenya',
         'created_at': datetime.now().isoformat(),
         'updated_at': datetime.now().isoformat()
     }
