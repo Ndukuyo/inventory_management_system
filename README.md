@@ -20,3 +20,18 @@ A comprehensive inventory management system with Flask REST API, CLI interface, 
 2. Running the app:
     -while in the folder inventory_mangement_system 
        python app.py
+   
+3 Ussing the cli interface
+  - To list all items in the inventory:
+      python cli.py list
+  - To view item details:
+      python cli.py view 1   i.e (view <id>)
+  - To add an item:
+      python cli.py add
+  - To delete item:
+      python cli.py 1     i.e(delete <id>)
+  - To update item:
+      python cli.py 1 --price 100
+  - To search from inventory:
+      python cli.py search "milk"
+    
