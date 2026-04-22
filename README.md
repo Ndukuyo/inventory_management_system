@@ -20,8 +20,10 @@ A comprehensive inventory management system with Flask REST API, CLI interface, 
 2. Running the app:
     -while in the folder inventory_mangement_system 
        python app.py
+   - keep this terminal open and running 
    
-3 Ussing the cli interface
+3 Using the cli interface
+- open a new terminal
   - To list all items in the inventory:
       python cli.py list
   - To view item details:
